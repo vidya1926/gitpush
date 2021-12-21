@@ -1,0 +1,3 @@
+
+	Java provides access control through public, private and protected access modifier keywords. When none of these are used, it’s called default access modifier.
+A java class can only have public or default access modifier.

@@ -1,0 +1,3 @@
+Yes, we can have multiple methods with name “main” in a single class. However if we
+run the class, java runtime environment will look for main method with syntax
+as public static void main(String args[]).

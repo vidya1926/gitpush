@@ -1,0 +1,17 @@
+Non static method are called by creating an Object for the class. For Example,
+
+public class StaticTest {
+
+    public static void main(String args[]) {
+     	// Create Object for the class
+        StaticTest test = new StaticTest();
+
+	// call the method
+        test.printName();
+     
+    }
+ 
+    public void printName(){
+       System.out.println("TestLeaf");
+    }
+}

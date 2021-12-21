@@ -1,0 +1,13 @@
+
+	Create an object for a class:
+<classname>  reference name = new <constructername()>;
+
+Name convention:
+Classname: should start with uppercase letter and be a noun e.g. String, Color, Button, System, Thread and etc.
+
+MethodName: should start with lowercase letter and be a verb e.g. Main(), gettext(), println() and etc.
+
+VariableName: should start with lowercase letter e.g. Firstname, lastname and etc.
+
+	
+	Ex:ChromeDriver driver = new ChromeDriver();

@@ -1,0 +1,14 @@
+ArrayOutOfBoundsException is thrown when an attempt is made to access the Array with illegal index. For example, illegal index means if the index is either negative or greater than or equal to the size of the Array.
+	For example,
+
+public class ExceptionExample{
+    
+    public static void main(String args[]) {
+
+    	int[]  rollNumber = { 23, 17, 20, 29, 30 };
+    	/* Index below is greater than the size 
+   	of the given Array */
+   	int element = rollNumber[6];
+	System.out.println(element);
+    }
+}

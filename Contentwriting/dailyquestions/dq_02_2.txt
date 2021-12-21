@@ -1,0 +1,20 @@
+Both equals() and “==” operator in Java are used to compare objects to check equality. But there are certain differences between them.
+
+a) .equals() is a method and == is an operator.
+b) == operator is used for reference comparison (address comparison) and .equals() method for content comparison i.e., == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
+c) If a class does not override the equals method, then by default it uses equals(Object o) method of the closest parent class that has overridden this method.
+
+	Eg: 
+	public class Test { 
+   	 public static void main(String[] args) 
+    	{ 
+        	String s1 = new String("TEST LEAF"); 
+	        String s2 = new String("TEST LEAF"); 
+        	System.out.println(s1 == s2); 
+	        System.out.println(s1.equals(s2)); 
+	    } 
+	}
+
+Output:
+	false
+	true

@@ -1,0 +1,13 @@
+a) Array is a collection of similar data types.
+	b) It can not have different data type. It can hold both primitive types (int, float, double) and object references.
+	c) It is fixed in length i.e static in nature. 
+	d) Arrays are created on the heap memory not on the stack.
+	e) Accessing an invalid index of an Array will cause exception.
+
+	You can declare an Array in java by the following way :
+
+	dataType[]    arrayVariableName  = new dataType[arraySize];
+
+for example for int data type, you can declare an int array as :
+
+	int[]  temp = new int[256]

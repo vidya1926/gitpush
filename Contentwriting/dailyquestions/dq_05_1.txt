@@ -1,0 +1,8 @@
+A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type. There are three types of variables in java: local, instance and static.
+	A variable is declared as below.
+		public String name;
+		public int age;
+	A variable is initialized as below.
+		public String name = "TestLeaf";
+		public String age = "10";
+	
